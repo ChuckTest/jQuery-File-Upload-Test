@@ -4,3 +4,4 @@ obj
 *.suo
 packages
 .vs
+jQuery-File-Upload-Test/Backload
