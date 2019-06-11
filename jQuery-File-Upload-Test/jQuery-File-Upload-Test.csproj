@@ -149,6 +149,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Handler.ashx.cs">
+      <DependentUpon>Handler.ashx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -158,6 +161,7 @@
     <Content Include="Backload\Client\blueimp\gallery\css\blueimp-gallery.less" />
     <Content Include="Backload\Client\blueimp\fileupload\package.json" />
     <Content Include="Backload\Client\blueimp\blob\package.json" />
+    <Content Include="Handler.ashx" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
